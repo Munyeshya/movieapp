@@ -42,34 +42,39 @@ function App() {
           <div className="hidden w-full bg-black md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col bg-black p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  md: dark:border-gray-700">
               <li>
-                <a href="/" className="block py-2 px-3 text-white  rounded md:bg-transparent  md:p-0" aria-current="page">Home</a>
+                <a href="/" className="block py-2 px-3 text-white font-bold md:p-0" aria-current="page">Home</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                <a href="#" className="block py-2 px-3 text-white rounded md:p-0 hover:font-bold">Explore</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                <a href="#" className="block py-2 px-3 text-white rounded md:p-0 hover:font-bold">Genre</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                <a href="#" className="block py-2 px-3 text-white rounded md:p-0 hover:font-bold">News</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                <a href="#" className="block py-2 px-3 text-white rounded md:p-0 hover:font-bold">Movies</a>
+              </li>
+              <li>
+                <a href="#" className="block py-2 px-3 text-white rounded md:p-0 hover:font-bold">TV Shows</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <div className="flex mx-[80px] my-28 ">
-        <div className="w-1/2 text-white border-solid border-2 border-l-0 border-b-0 py-28 ">
-          <p className='text-4xl karantina-bold'>FIND MOVIES</p>
-          <i class="fa-regular fa-circle-play"></i>
-          <p className='text-5xl bg-gradient-to-r text-transparent bg-clip-text bg-gradient-to-r to-pink-500 from-blue-700 font-bold'>TV SHOWS AND MORE</p>
+        <div className="w-1/2 text-white border-solid  py-28 ">
+          <div className='border-2 border-l-0 border-b-0'>
+            <p className='text-4xl karantina-bold'>FIND MOVIES</p>
+            <i class="fa-regular fa-circle-play"></i>
+            <p className='text-5xl bg-gradient-to-r text-transparent bg-clip-text bg-gradient-to-r to-pink-500 from-blue-700 font-bold'>TV SHOWS AND MORE</p>
+          </div>
         </div>
-        <div className="w-1/2 flex text-white border-2 border-t-0 border-r-0 px-4">
+        <div className="w-1/2 flex text-white border-2 border-t-0 border-r-0 px-4 mb-8">
           <i class="fa-regular fa-circle-play"></i>
           <img className='absolute z-50 mt-[40px] w-[300px] h-[]' src={media1} alt="Logo" />
-          <img className='z-10 ml-[90px] w-[300px] h-[]' src={media2} alt="Logo" />
+          <img className='z-10 ml-[150px] w-[300px] h-[]' src={media2} alt="Logo" />
         </div>
       </div>
 
